@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#recipe-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    background-color: #ffcc66;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Title Styles */
+#recipe-title {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    font-style: italic;
+    color: #d2691e;
+    margin: 0;
+}
+
+/* Section Styles */
+.ingredients, .steps {
+    margin: 20px 0;
+}
+
+.ingredients h2, .steps h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5em;
+    color: #8b4513;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 5px;
+}
+
+/* List Styles */
+.ingredients ul, .steps ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Link Styles */
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d2691e;
+    text-decoration: underline;
+}
+
+/* Combinator Selector */
+.ingredients li + li {
+    margin-top: 5px;
+}
+
